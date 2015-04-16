@@ -30,6 +30,11 @@ function FP_changePropRestore() {//v1.0
 </head>
 <body topmargin="0" leftmargin="0" rightmargin="0"  bottommargin="0"  marginwidth="0" marginheight="0">
 
+    <?php
+    {
+        echo ossn_view('components/games/ads/banner');
+    } ?>
+	
 <table border="0" width="100%" height="482">
 	<tr>
 		<td>
@@ -50,7 +55,7 @@ function FP_changePropRestore() {//v1.0
 					<p align="center">
 					<font face="Arial" size="5" color="#D9D9D9"><b>
 					<a target="palco" href="<?php echo ossn_site_url (); ?>components/games/page/menu3.php">
-					Social Games</a></b></font></td>
+					Social games</a></b></font></td>
 					<td height="40" bgcolor="#C7DDEB" style="vertical-align: middle; border: 6px solid #D9D9D9; padding-left: 4px; padding-right: 4px; padding-top: 1px; padding-bottom: 1px" bordercolorlight="#D9D9D9" bordercolordark="#D9D9D9" id="id4" onmouseout="FP_changePropRestore()" onmouseover="FP_changeProp(/*id*/'id4',1,'style.backgroundColor','#D9D9D9')">
 					<p align="center">
 					<font face="Arial" size="5" color="#D9D9D9"><b>
